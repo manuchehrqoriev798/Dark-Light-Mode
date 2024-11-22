@@ -1,0 +1,70 @@
+.feeds-wrapper .card {
+    width: 268px;
+    height: 236px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0 0 10px 0;
+    border-radius: 5px;
+}
+.feeds-wrapper .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ul.feeds-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.feeds-list li {
+    display: inline-block;
+    padding: 10px;
+}
+.feeds-wrapper .card img{
+    height: 170px;
+    width: 266px;
+    border-radius: 5px 5px 0 0
+}
+.feeds-list .card-title {
+    font-size: 13px;
+    color: #0087a6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+.feeds-list .card-description {
+    font-size: 11px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #797979;
+    padding: 0 8px;
+}
+.feeds-loader {
+    color: #8d8d8d;
+    margin-top: 80px;
+    letter-spacing: 1px;
+}
+/* dark theme specified css */
+.dark-theme {
+    background: #2e2e2e;
+}
+.feeds-wrapper .card {
+    box-shadow: 0 4px 8px 0 rgba(167, 167, 167, 0.2);
+}
+.dark-theme .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.4);
+}
+.dark-theme .card p {
+    color: #fff;
+}
+.heading{
+    margin: 0;
+    font-size: 20px;
+    padding: 20px;
+} 
+.InWhite{
+    color: #fff;
+}
